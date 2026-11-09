@@ -61,6 +61,7 @@
 
     .steunkleur2-3 {
         background-color: #D04A27;
+        color: white;  
     }
 
     .steunkleur3-1 {
@@ -73,6 +74,46 @@
 
     .steunkleur3-3 {
         background-color: #9864A0;
+        color: white;  
+    }
+
+    .steunkleur4-1 {
+        background-color: #D7D9A7;
+    }
+
+    .steunkleur4-2 {
+        background-color: #B0B74D;
+    }
+
+    .steunkleur4-3 {
+        background-color: #8D9600;
+        color: white;  
+    }
+
+    .steunkleur5-1 {
+        background-color: #DD99A6;
+    }
+
+    .steunkleur5-2 {
+        background-color: #BC364F;
+    }
+
+    .steunkleur5-3 {
+        background-color: #9A0034;
+        color: white;  
+    }
+
+    .steunkleur6-1 {
+        background-color: #9AB9CD;
+    }
+
+    .steunkleur6-2 {
+        background-color: #2F739B;
+    }
+
+    .steunkleur6-3 {
+        background-color: #005374;
+        color: white;  
     }
 
     /* Typografie */
