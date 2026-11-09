@@ -8,6 +8,7 @@
        gedeeld gaan worden door jullie projecten */
 
     /* Kleuren */
+    
     .hoofdkleur1 {
         background-color: #1D194E;  
         color: white;  
@@ -38,9 +39,16 @@
         background-color: #D18B0A;    
     }    
     .steunkleur1-1 {
-        background-color: #A7DDDF
+        background-color: #A7DDDF;
     }
 
+    .steunkleur1-2 {
+        background-color: #4FBBC2;
+    }
+
+    .steunkleur1-3 {
+        background-color: #019DA7;
+    }
 
     /* Typografie */
 
