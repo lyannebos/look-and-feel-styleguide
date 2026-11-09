@@ -38,6 +38,7 @@
     .hoofdkleur7 {
         background-color: #D18B0A;    
     }    
+
     .steunkleur1-1 {
         background-color: #A7DDDF;
     }
@@ -48,6 +49,30 @@
 
     .steunkleur1-3 {
         background-color: #019DA7;
+    }
+
+    .steunkleur2-1 {
+        background-color: #FDB4A5;
+    }
+
+    .steunkleur2-2 {
+        background-color: #F86B50;
+    }
+
+    .steunkleur2-3 {
+        background-color: #D04A27;
+    }
+
+    .steunkleur3-1 {
+        background-color: #DAC7DD;
+    }
+
+    .steunkleur3-2 {
+        background-color: #B48EBA;
+    }
+
+    .steunkleur3-3 {
+        background-color: #9864A0;
     }
 
     /* Typografie */
