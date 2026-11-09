@@ -8,9 +8,39 @@
        gedeeld gaan worden door jullie projecten */
 
     /* Kleuren */
-    .color-example {
-        background-color: #bada55;
+    .hoofdkleur1 {
+        background-color: #1D194E;  
+        color: white;  
     }
+    
+    .hoofdkleur2 {
+        background-color: #47446F;
+        color: white; 
+    }
+    
+    .hoofdkleur3 {
+        background-color: #A3A2B7;    
+    }
+
+    .hoofdkleur4 {
+        background-color: #D1D0DB;    
+    }
+
+    .hoofdkleur5 {
+        background-color: #F3F3F6;    
+    }
+
+    .hoofdkleur6 {
+        background-color: #FEB51E;    
+    }
+
+    .hoofdkleur7 {
+        background-color: #D18B0A;    
+    }    
+    .steunkleur1-1 {
+        background-color: #A7DDDF
+    }
+
 
     /* Typografie */
 
