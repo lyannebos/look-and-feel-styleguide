@@ -123,5 +123,40 @@
 
 
     /* Formulier elementen */
+    .text{
+        border: 1px solid #D1D0DB;
+        padding: 10px 20px 10px 20px;
+    }
 
+    .searchbar{
+        border: 2px solid #D1D0DB;
+        padding: 10px 20px 10px 20px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .input{
+            border: none;
+            font-size: 16px;
+            width: 100%;
+        }
+
+        .input[type="text"]:focus{
+            outline: none;
+        }
+
+        .input[type="text"]{
+            caret-color: black;
+            font-size: 15px;
+        }
+    }
+
+    .button{
+        background-color: #FEB51E;
+        color: #1D194E;
+        padding: 20px 33px 20px 33px;
+        border: none;
+        font-weight: 500;
+        font-size: 14px;
+    }
 }
