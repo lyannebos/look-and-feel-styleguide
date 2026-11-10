@@ -121,20 +121,42 @@
 
     /* Typografie */
 
+    @font-face {
+        font-family: "Rigid square";
+        src: url(./fonts/Rigid_Square_Bold.otf);
+        font-weight: 100;
+        font-style: normal;
+        font-display: fallback;
+    }
 
     /* Formulier elementen */
     .text{
         border: 1px solid #D1D0DB;
         padding: 10px 20px 10px 20px;
+    @font-face {
+        font-family: "Yrsa";
+        src: url(./fonts/Yrsa-Regular\ kopie.ttf);
+        font-weight: 100;
+        font-style: normal;
+        font-display: fallback;
     }
 
     input:focus{
         outline: none;
+    @font-face {
+        font-family: "Yrsa";
+        src: url(./fonts/Yrsa-Bold.ttf);
+        font-weight:700;
+        font-style: normal;
+        font-display: fallback;
     }
   
     input{
         caret-color: black;
         font-size: 15px;
+
+    .koppen {
+        font-family: "Rigid square";
     }
 
     .searchbar{
