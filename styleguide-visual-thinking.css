@@ -2,6 +2,50 @@
    https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_layers
    https://css-tricks.com/css-cascade-layers/ */
 
+
+    :root {
+
+        /* Colors */
+        --donkerblauw: #1D194E;
+        --geel-light: #FEB51E;
+        --geel-dark:#D18B0A;
+        --grey-dark: #A3A2B7;
+        --grey-normal: #D1D0DB;
+        --grey-light: #F3F3F6;
+
+        --steunkleur1-light: #A7DDDF;
+        --steunkleur1-normal: #4FBBC2;
+        --steunkleur1-dark: #019DA7;
+
+        --steunkleur2-light: #FDB4A5;
+        --steunkleur2-normal: #F86B50;
+        --steunkleur2-dark: #D04A27;
+
+        --steunkleur3-light: #DAC7DD;
+        --steunkleur3-normal: #B48EBA;
+        --steunkleur3-dark: #9864A0;
+
+        --steunkleur4-light: #D7D9A7;
+        --steunkleur4-normal: #B0B74D;
+        --steunkleur4-dark: #8D9600;
+
+        --steunkleur5-light: #DD99A6;
+        --steunkleur5-normal: #BC364F;
+        --steunkleur5-dark: #9A0034;
+
+        --steunkleur6-light: #9AB9CD;
+        --steunkleur6-normal: #2F739B;
+        --steunkleur6-dark: #005374;
+
+        /* Typografie */
+
+
+
+        /* Forms */
+
+
+    }
+
 @layer styleguide {
 
     /* Schrijf hier de verschillende stijlen, die
