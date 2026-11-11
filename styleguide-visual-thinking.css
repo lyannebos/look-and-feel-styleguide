@@ -169,6 +169,24 @@
         font-display: fallback;
     }
 
+
+    .alineakop {
+        font-family: "Yrsa";
+        font-weight: 700;
+    }
+
+    .alinea-body {
+        font-family: "Yrsa";
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .alinea-article {
+        font-family: "Yrsa";
+        font-size: 17px;
+        line-height: 1.7;
+    }
+
     /* Formulier elementen */
     .text{
         border: 1px solid #D1D0DB;
