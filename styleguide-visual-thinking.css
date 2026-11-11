@@ -173,6 +173,7 @@
     .alineakop {
         font-family: "Yrsa";
         font-weight: 700;
+        font-size: 19;
     }
 
     .alinea-body {
@@ -185,6 +186,31 @@
         font-family: "Yrsa";
         font-size: 17px;
         line-height: 1.7;
+        letter-spacing: 0.1ch;
+    }
+
+    .lijsten {
+        font-family: "Yrsa";
+        font-size: 16px;
+    }
+
+    .tabelkop {
+        font-family: "Rigid Square";
+        font-size: 17px;
+        font-weight: 700;
+    }
+
+    .tabeldata {
+        font-family: "Yrsa";
+        font-size: 16px;
+    }
+
+    .quote {
+        font-family: "Rigid Square";
+        font-size: 17px;
+        font-weight: 700;
+        text-align: center;
+
     }
 
     /* Formulier elementen */
