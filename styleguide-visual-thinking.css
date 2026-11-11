@@ -2,6 +2,50 @@
    https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_layers
    https://css-tricks.com/css-cascade-layers/ */
 
+
+    :root {
+
+        /* Colors */
+        --donkerblauw: #1D194E;
+        --geel-light: #FEB51E;
+        --geel-dark:#D18B0A;
+        --grey-dark: #A3A2B7;
+        --grey-normal: #D1D0DB;
+        --grey-light: #F3F3F6;
+
+        --steunkleur1-light: #A7DDDF;
+        --steunkleur1-normal: #4FBBC2;
+        --steunkleur1-dark: #019DA7;
+
+        --steunkleur2-light: #FDB4A5;
+        --steunkleur2-normal: #F86B50;
+        --steunkleur2-dark: #D04A27;
+
+        --steunkleur3-light: #DAC7DD;
+        --steunkleur3-normal: #B48EBA;
+        --steunkleur3-dark: #9864A0;
+
+        --steunkleur4-light: #D7D9A7;
+        --steunkleur4-normal: #B0B74D;
+        --steunkleur4-dark: #8D9600;
+
+        --steunkleur5-light: #DD99A6;
+        --steunkleur5-normal: #BC364F;
+        --steunkleur5-dark: #9A0034;
+
+        --steunkleur6-light: #9AB9CD;
+        --steunkleur6-normal: #2F739B;
+        --steunkleur6-dark: #005374;
+
+        /* Typografie */
+
+
+
+        /* Forms */
+
+
+    }
+
 @layer styleguide {
 
     /* Schrijf hier de verschillende stijlen, die
@@ -134,6 +178,12 @@
         border: 1px solid #D1D0DB;
         padding: 10px 20px 10px 20px;
     }
+
+    .text-blue{
+        border: 1px solid #1D194E;
+        padding: 10px 20px 10px 20px;
+    }
+
     @font-face {
         font-family: "Yrsa";
         src: url(./fonts/Yrsa-Regular\ kopie.ttf);
@@ -176,6 +226,24 @@
         }
     }
 
+    .searchbar-blue{
+        border: 2px solid #1D194E;
+        padding: 10px 20px 10px 20px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .input2{
+            border: none;
+            font-size: 16px;
+            width: 100%;
+        }
+
+        .input2::placeholder {
+            color: #1D194E;
+        }
+    }    
+
     .button{
         background-color: #FEB51E;
         color: #1D194E;
@@ -184,14 +252,16 @@
         font-weight: 500;
         font-size: 14px;
     }
-    .button-reversed{
+
+    .button-reversed {
         background-color: #1D194E;
-        color:#FEB51E;
+        color: #FEB51E;
         padding: 20px 33px 20px 33px;
         border: none;
         font-weight: 500;
         font-size: 14px;
     }
+
 
     .button-checked{
         background-color: #1D194E;
