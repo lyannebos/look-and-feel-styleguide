@@ -155,28 +155,37 @@
       <h5 class="koppen">Kop 5</h5>
       <h6 class="koppen">Kop 6</h6>
 
-      <p class="alinea kop">Simpele alinea's</p>
-      <p class="alinea">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    
+      <p class="alineakop">Simpele artikle alinea</p>
+      <p class="alinea-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-      <ul class="">
+      <p class="alineakop">Simpele body alinea</p>
+      <p class="alinea-article">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <ul class="lijsten">
         <li>Ongeordende lijsten met items</li>
         <li>Met nog meer items</li>
         <li>En nog een item</li>
       </ul>
 
-      <ol class="">
+      <ol class="lijsten">
         <li>Geordende lijsten met items</li>
         <li>Met nog meer items</li>
         <li>En nog een item</li>
       </ol>
 
-      <table class="">
-        <thead>
+      <table>
+        <thead class="tabelkop">
           <tr>
             <th>Tabelkop</th>
             <th>Tabelkop</th>
@@ -184,7 +193,7 @@
             <th>Tabelkop</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody class="tabeldata">
           <tr>
             <td>Tabeldata</td>
             <td>Tabeldata</td>
@@ -218,8 +227,8 @@
         </tbody>
       </table>
 
-      <blockquote class="">
-        <p>Dit is een quote, met een specifieke styling. Standaard wordt deze ingesprongen door de browser. Maar waarschijnlijk zien quotes er bij jullie anders uit.</p>
+      <blockquote class="quote">
+        <p>"Dit is een quote, met een specifieke styling. Standaard wordt deze ingesprongen door de browser. Maar waarschijnlijk zien quotes er bij jullie anders uit."</p>
       </blockquote>
 
     </section>
@@ -264,7 +273,15 @@
           <input type="submit" value="Materiaal indienen" class="button">
           <input type="submit" value="Materiaal indienen" class="button-reversed">
         </p>
+        <fieldset>
+          <legend class="">Checkbox</legend>
 
+          <label class="checkbox">
+            <input type="checkbox" name="checkbox-2" class="">
+            Checkbox
+          </label>
+
+        </fieldset>
         <p>
           <button type="button" class="button-checked">Button</button>
           <button type="button" class="button-unchecked">Button</button>

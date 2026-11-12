@@ -170,6 +170,50 @@
         font-display: fallback;
     }
 
+
+    .alineakop {
+        font-family: "Yrsa";
+        font-weight: 700;
+        font-size: 19;
+    }
+
+    .alinea-body {
+        font-family: "Yrsa";
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .alinea-article {
+        font-family: "Yrsa";
+        font-size: 17px;
+        line-height: 1.7;
+        letter-spacing: 0.1ch;
+    }
+
+    .lijsten {
+        font-family: "Yrsa";
+        font-size: 16px;
+    }
+
+    .tabelkop {
+        font-family: "Rigid Square";
+        font-size: 17px;
+        font-weight: 700;
+    }
+
+    .tabeldata {
+        font-family: "Yrsa";
+        font-size: 16px;
+    }
+
+    .quote {
+        font-family: "Rigid Square";
+        font-size: 17px;
+        font-weight: 700;
+        text-align: center;
+
+    }
+
     /* Formulier elementen */
     .text{
         border: 1px solid #D1D0DB;
@@ -187,6 +231,23 @@
         font-weight: 100;
         font-style: normal;
         font-display: fallback;
+    }
+
+    .alineakop {
+        font-family: "Yrsa";
+        font-weight: 700;
+    }
+
+    .alinea-body {
+        font-family: "Yrsa";
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .alinea-article {
+       font-family: "Yrsa";
+       font-size: 17px;
+       line-height: 1.7;
     }
 
     input:focus{
@@ -277,4 +338,23 @@
         font-weight: 500;
         font-size: 14px;
     }
+   .checkbox {
+    display: inline-block;
+    background-color: white;
+    color: #1D194E;
+    padding: 20px 33px;
+    border: 1px solid #1D194E;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.checkbox input[type="checkbox"] {
+    display: none;
+}
+
+.checkbox:has(input:checked) {
+    background-color: #1D194E;
+    color: #F3F3F6;
+}
 }
