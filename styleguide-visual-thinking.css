@@ -6,6 +6,8 @@
     :root {
 
         /* Colors */
+
+        /* Main colors */
         --page: #F5F5F5;
         --darkblue: #1D194E;
         --lightblue: #47446F;
@@ -15,26 +17,32 @@
         --grey-normal: #D1D0DB;
         --grey-light: #F3F3F6;
 
+        /* Steunkleur 1: Leren over jezelf en reflecteren */
         --steunkleur1-light: #A7DDDF;
         --steunkleur1-normal: #4FBBC2;
         --steunkleur1-dark: #019DA7;
 
+        /* Steunkleur 2: Onderzoeken en begrijpen */
         --steunkleur2-light: #FDB4A5;
         --steunkleur2-normal: #F96C4F;
         --steunkleur2-dark: #D04925;
 
+        /* Steunkleur 3: Creatief denken */
         --steunkleur3-light: #DAC7DD;
         --steunkleur3-normal: #B48EBA;
         --steunkleur3-dark: #9864A0;
 
+        /* Steunkleur 4: Organiseren en plannen */
         --steunkleur4-light: #D7D9A7;
         --steunkleur4-normal: #B0B64C;
         --steunkleur4-dark: #8E9700;
 
+        /* Steunkleur 5: Communiceren en presenteren */
         --steunkleur5-light: #DD99A6;
         --steunkleur5-normal: #BD364E;
         --steunkleur5-dark: #970033;
 
+        /* Steunkleur 6: Leren over anderen */
         --steunkleur6-light: #9AB9CD;
         --steunkleur6-normal: #2F739B;
         --steunkleur6-dark: #005374;
@@ -42,6 +50,7 @@
         /* Typografie */
 
         /* Komt nog */
+        
     }
 
 @layer styleguide {
