@@ -3,82 +3,79 @@
    https://css-tricks.com/css-cascade-layers/ */
 
 
-:root {
+    :root {
 
-    /* Colors */
+        /* Colors */
 
-    /* Main colors */
-    --page: #F5F5F5;
-    --darkblue: #1D194E;
-    --lightblue: #47446F;
-    --yellow-light: #FEB51E;
-    --yellow-dark: #D18B0A;
-    --grey-dark: #A3A2B7;
-    --grey-normal: #D1D0DB;
-    --grey-light: #F3F3F6;
+        /* Main colors */
+        --page: #F5F5F5;
+        --darkblue: #1D194E;
+        --lightblue: #47446F;
+        --yellow-light: #FEB51E;
+        --yellow-dark:#D18B0A;
+        --grey-dark: #A3A2B7;
+        --grey-normal: #D1D0DB;
+        --grey-light: #F3F3F6;
 
-        /* Steunkleur 1: Leren over jezelf en reflecteren */
-        --steunkleur1-light: #A7DDDF;
-        --steunkleur1-normal: #4FBBC2;
-        --steunkleur1-dark: #019DA7;
+        /* Steunkleur 1 - Turquoise: Leren over jezelf en reflecteren */
+        --turquoise-light: #A7DDDF;
+        --turquoise-normal: #4FBBC2;
+        --turquoise-dark: #019DA7;
 
-        /* Steunkleur 2: Onderzoeken en begrijpen */
-        --steunkleur2-light: #FDB4A5;
-        --steunkleur2-normal: #F96C4F;
-        --steunkleur2-dark: #D04925;
+        /* Steunkleur 2 - Red: Onderzoeken en begrijpen */
+        --red-light: #FDB4A5;
+        --red-normal: #F96C4F;
+        --red-dark: #D04925;
 
-        /* Steunkleur 3: Creatief denken */
-        --steunkleur3-light: #DAC7DD;
-        --steunkleur3-normal: #B48EBA;
-        --steunkleur3-dark: #9864A0;
+        /* Steunkleur 3 - Purple: Creatief denken */
+        --purple-light: #DAC7DD;
+        --purple-normal: #B48EBA;
+        --purple-dark: #9864A0;
 
-        /* Steunkleur 4: Organiseren en plannen */
-        --steunkleur4-light: #D7D9A7;
-        --steunkleur4-normal: #B0B64C;
-        --steunkleur4-dark: #8E9700;
+        /* Steunkleur 4 - Green: Organiseren en plannen */
+        --green-light: #D7D9A7;
+        --green-normal: #B0B64C;
+        --green-dark: #8E9700;
 
-        /* Steunkleur 5: Communiceren en presenteren */
-        --steunkleur5-light: #DD99A6;
-        --steunkleur5-normal: #BD364E;
-        --steunkleur5-dark: #970033;
+        /* Steunkleur 5 - Wine Red: Communiceren en presenteren */
+        --winered-light: #DD99A6;
+        --winered-normal: #BD364E;
+        --winered-dark: #970033;
 
-        /* Steunkleur 6: Leren over anderen */
-        --steunkleur6-light: #9AB9CD;
-        --steunkleur6-normal: #2F739B;
-        --steunkleur6-dark: #005374;
+        /* Steunkleur 6 - Blue: Leren over anderen */
+        --blue-light: #9AB9CD;
+        --blue-normal: #2F739B;
+        --blue-dark: #005374;
 
-    /* Typografie */
+        /* Typografie */
 
         /* Komt nog */
-        
+
     }
 
-@font-face {
-    font-family: "Rigid square";
-    src: url(./fonts/Rigid_Square_Bold.otf);
-    font-weight: 100;
-    font-size: 17px;
-    font-style: normal;
-    font-display: fallback;
-}
+    @font-face {
+        font-family: "Rigid square";
+        src: url(./fonts/Rigid_Square_Bold.otf);
+        font-weight: 100;
+        font-style: normal;
+        font-display: fallback;
+    }
 
-@font-face {
-    font-family: "Yrsa";
-    src: url(./fonts/Yrsa-Regular\ kopie.ttf);
-    font-weight: 100;
-    font-size: 16px;
-    font-style: normal;
-    font-display: fallback;
-}
+    @font-face {
+        font-family: "Yrsa";
+        src: url(./fonts/Yrsa-Regular\ kopie.ttf);
+        font-weight: 100;
+        font-style: normal;
+        font-display: fallback;
+    }    
 
-@font-face {
-    font-family: "Yrsa";
-    src: url(./fonts/Yrsa-Bold.ttf);
-    font-weight: 700;
-    font-size: 17px;
-    font-style: normal;
-    font-display: fallback;
-}
+    @font-face {
+        font-family: "Yrsa";
+        src: url(./fonts/Yrsa-Bold.ttf);
+        font-weight:700;
+        font-style: normal;
+        font-display: fallback;
+    }
 
 @layer styleguide {
 
@@ -270,16 +267,16 @@
     }
 
     .alinea-article {
-        font-family: "Yrsa";
-        font-size: 17px;
-        line-height: 1.7;
+       font-family: "Yrsa";
+       font-size: 17px;
+       line-height: 1.7;
     }
 
     input:focus{
         outline: none;
     }
-
-    input {
+  
+    input{
         caret-color: black;
         font-size: 15px;
     }
