@@ -60,6 +60,10 @@
 
     /* Kleuren */
     
+    .page {
+        background-color: var(--page);    
+    }   
+
     .darkblue {
         background-color: var(--darkblue);  
         color: var(--grey-light);  
