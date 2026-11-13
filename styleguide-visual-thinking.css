@@ -17,41 +17,41 @@
     --grey-normal: #D1D0DB;
     --grey-light: #F3F3F6;
 
-        /* Steunkleur 1: Leren over jezelf en reflecteren */
-        --steunkleur1-light: #A7DDDF;
-        --steunkleur1-normal: #4FBBC2;
-        --steunkleur1-dark: #019DA7;
+    /* Steunkleur 1: Leren over jezelf en reflecteren */
+    --steunkleur1-light: #A7DDDF;
+    --steunkleur1-normal: #4FBBC2;
+    --steunkleur1-dark: #019DA7;
 
-        /* Steunkleur 2: Onderzoeken en begrijpen */
-        --steunkleur2-light: #FDB4A5;
-        --steunkleur2-normal: #F96C4F;
-        --steunkleur2-dark: #D04925;
+    /* Steunkleur 2: Onderzoeken en begrijpen */
+    --steunkleur2-light: #FDB4A5;
+    --steunkleur2-normal: #F96C4F;
+    --steunkleur2-dark: #D04925;
 
-        /* Steunkleur 3: Creatief denken */
-        --steunkleur3-light: #DAC7DD;
-        --steunkleur3-normal: #B48EBA;
-        --steunkleur3-dark: #9864A0;
+    /* Steunkleur 3: Creatief denken */
+    --steunkleur3-light: #DAC7DD;
+    --steunkleur3-normal: #B48EBA;
+    --steunkleur3-dark: #9864A0;
 
-        /* Steunkleur 4: Organiseren en plannen */
-        --steunkleur4-light: #D7D9A7;
-        --steunkleur4-normal: #B0B64C;
-        --steunkleur4-dark: #8E9700;
+    /* Steunkleur 4: Organiseren en plannen */
+    --steunkleur4-light: #D7D9A7;
+    --steunkleur4-normal: #B0B64C;
+    --steunkleur4-dark: #8E9700;
 
-        /* Steunkleur 5: Communiceren en presenteren */
-        --steunkleur5-light: #DD99A6;
-        --steunkleur5-normal: #BD364E;
-        --steunkleur5-dark: #970033;
+    /* Steunkleur 5: Communiceren en presenteren */
+    --steunkleur5-light: #DD99A6;
+    --steunkleur5-normal: #BD364E;
+    --steunkleur5-dark: #970033;
 
-        /* Steunkleur 6: Leren over anderen */
-        --steunkleur6-light: #9AB9CD;
-        --steunkleur6-normal: #2F739B;
-        --steunkleur6-dark: #005374;
+    /* Steunkleur 6: Leren over anderen */
+    --steunkleur6-light: #9AB9CD;
+    --steunkleur6-normal: #2F739B;
+    --steunkleur6-dark: #005374;
 
     /* Typografie */
 
-        /* Komt nog */
-        
-    }
+    /* Komt nog */
+
+}
 
 @font-face {
     font-family: "Rigid square";
@@ -87,118 +87,114 @@
 
     /* Kleuren */
     
-    .page {
-        background-color: var(--page);    
-    }   
-
-    .darkblue {
-        background-color: var(--darkblue);  
-        color: var(--grey-light);  
+    .hoofdkleur1 {
+        background-color: #1D194E;  
+        color: white;  
     }
     
-    .lightblue {
-        background-color: var(--lightblue);
-        color: var(--grey-light); 
+    .hoofdkleur2 {
+        background-color: #47446F;
+        color: white; 
     }
     
-    .grey-dark {
-        background-color: var(--grey-dark);    
+    .hoofdkleur3 {
+        background-color: #A3A2B7;    
     }
 
-    .grey-normal {
-        background-color: var(--grey-normal);    
+    .hoofdkleur4 {
+        background-color: #D1D0DB;    
     }
 
-    .grey-light {
-        background-color: var(--grey-light);    
+    .hoofdkleur5 {
+        background-color: #F3F3F6;    
     }
 
-    .yellow-light {
-        background-color: var(--yellow-light);    
+    .hoofdkleur6 {
+        background-color: #FEB51E;    
     }
 
-    .yellow-dark {
-        background-color: var(--yellow-dark);    
+    .hoofdkleur7 {
+        background-color: #D18B0A;    
     }    
 
-    .turquoise-light {
-        background-color: var(--turquoise-light);
+    .steunkleur1-1 {
+        background-color: #A7DDDF;
     }
 
-    .turquoise-normal {
-        background-color: var(--turquoise-normal);
+    .steunkleur1-2 {
+        background-color: #4FBBC2;
     }
 
-    .turquoise-dark {
-        background-color: var(--turquoise-dark);
-        color: var(--grey-light);  
+    .steunkleur1-3 {
+        background-color: #019DA7;
+        color: white;  
     }
 
-    .red-light {
-        background-color: var(--red-light);
+    .steunkleur2-1 {
+        background-color: #FDB4A5;
     }
 
-    .red-normal {
-        background-color: var(--red-normal);
+    .steunkleur2-2 {
+        background-color: #F86B50;
     }
 
-    .red-dark {
-        background-color: var(--red-dark);
-        color: var(--grey-light);  
+    .steunkleur2-3 {
+        background-color: #D04A27;
+        color: white;  
     }
 
-    .purple-light {
-        background-color: var(--purple-light);
+    .steunkleur3-1 {
+        background-color: #DAC7DD;
     }
 
-    .purple-normal {
-        background-color: var(--purple-normal);
+    .steunkleur3-2 {
+        background-color: #B48EBA;
     }
 
-    .purple-dark {
-        background-color: var(--purple-dark);
-        color: var(--grey-light);  
+    .steunkleur3-3 {
+        background-color: #9864A0;
+        color: white;  
     }
 
-    .green-light {
-        background-color: var(--green-light);
+    .steunkleur4-1 {
+        background-color: #D7D9A7;
     }
 
-    .green-normal {
-        background-color: var(--green-normal);
+    .steunkleur4-2 {
+        background-color: #B0B74D;
     }
 
-    .green-dark {
-        background-color: var(--green-dark);
-        color: var(--grey-light);  
+    .steunkleur4-3 {
+        background-color: #8D9600;
+        color: white;  
     }
 
-    .winered-light {
-        background-color: var(--winered-light);
+    .steunkleur5-1 {
+        background-color: #DD99A6;
     }
 
-    .winered-normal {
-        background-color: var(--winered-normal);
-        color: var(--grey-light);  
+    .steunkleur5-2 {
+        background-color: #BC364F;
+        color: white;  
     }
 
-    .winered-dark {
-        background-color: var(--winered-dark);
-        color: var(--grey-light);  
+    .steunkleur5-3 {
+        background-color: #9A0034;
+        color: white;  
     }
 
-    .blue-light {
-        background-color: var(--blue-light);
+    .steunkleur6-1 {
+        background-color: #9AB9CD;
     }
 
-    .blue-normal {
-        background-color: var(--blue-normal);
-        color: var(--grey-light);  
+    .steunkleur6-2 {
+        background-color: #2F739B;
+        color: white;  
     }
 
-    .blue-dark {
-        background-color: var(--blue-dark);
-        color: var(--grey-light);  
+    .steunkleur6-3 {
+        background-color: #005374;
+        color: white;  
     }
 
     /* Typografie */
