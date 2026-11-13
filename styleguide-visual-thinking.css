@@ -49,26 +49,36 @@
 
     /* Typografie */
 
-        /* Steunkleur 4: Organiseren en plannen */
-        --steunkleur4-light: #D7D9A7;
-        --steunkleur4-normal: #B0B64C;
-        --steunkleur4-dark: #8E9700;
+    /* Komt nog */
 
-        /* Steunkleur 5: Communiceren en presenteren */
-        --steunkleur5-light: #DD99A6;
-        --steunkleur5-normal: #BD364E;
-        --steunkleur5-dark: #970033;
+}
 
-        /* Steunkleur 6: Leren over anderen */
-        --steunkleur6-light: #9AB9CD;
-        --steunkleur6-normal: #2F739B;
-        --steunkleur6-dark: #005374;
+@font-face {
+    font-family: "Rigid square";
+    src: url(./fonts/Rigid_Square_Bold.otf);
+    font-weight: 100;
+    font-size: 17px;
+    font-style: normal;
+    font-display: fallback;
+}
 
-        /* Typografie */
+@font-face {
+    font-family: "Yrsa";
+    src: url(./fonts/Yrsa-Regular\ kopie.ttf);
+    font-weight: 100;
+    font-size: 16px;
+    font-style: normal;
+    font-display: fallback;
+}
 
-        /* Komt nog */
-        
-    }
+@font-face {
+    font-family: "Yrsa";
+    src: url(./fonts/Yrsa-Bold.ttf);
+    font-weight: 700;
+    font-size: 17px;
+    font-style: normal;
+    font-display: fallback;
+}
 
 @layer styleguide {
 
@@ -189,14 +199,6 @@
 
     /* Typografie */
 
-    @font-face {
-        font-family: "Rigid square";
-        src: url(./fonts/Rigid_Square_Bold.otf);
-        font-weight: 100;
-        font-style: normal;
-        font-display: fallback;
-    }
-
 
     .alineakop {
         font-family: "Yrsa";
@@ -252,14 +254,6 @@
         padding: 10px 20px 10px 20px;
     }
 
-    @font-face {
-        font-family: "Yrsa";
-        src: url(./fonts/Yrsa-Regular\ kopie.ttf);
-        font-weight: 100;
-        font-style: normal;
-        font-display: fallback;
-    }
-
     .alineakop {
         font-family: "Yrsa";
         font-weight: 700;
@@ -272,23 +266,16 @@
     }
 
     .alinea-article {
-       font-family: "Yrsa";
-       font-size: 17px;
-       line-height: 1.7;
+        font-family: "Yrsa";
+        font-size: 17px;
+        line-height: 1.7;
     }
 
     input:focus{
         outline: none;
     }
-    @font-face {
-        font-family: "Yrsa";
-        src: url(./fonts/Yrsa-Bold.ttf);
-        font-weight:700;
-        font-style: normal;
-        font-display: fallback;
-    }
-  
-    input{
+
+    input {
         caret-color: black;
         font-size: 15px;
     }
