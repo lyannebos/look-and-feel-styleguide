@@ -61,113 +61,113 @@
     /* Kleuren */
     
     .hoofdkleur1 {
-        background-color: #1D194E;  
-        color: white;  
+        background-color: var(--darkblue);  
+        color: var(--grey-light);  
     }
     
     .hoofdkleur2 {
-        background-color: #47446F;
-        color: white; 
+        background-color: var(--lightblue);
+        color: var(--grey-light); 
     }
     
     .hoofdkleur3 {
-        background-color: #A3A2B7;    
+        background-color: var(--grey-dark);    
     }
 
     .hoofdkleur4 {
-        background-color: #D1D0DB;    
+        background-color: var(--grey-normal);    
     }
 
     .hoofdkleur5 {
-        background-color: #F3F3F6;    
+        background-color: var(--grey-light);    
     }
 
     .hoofdkleur6 {
-        background-color: #FEB51E;    
+        background-color: var(--yellow-light);    
     }
 
     .hoofdkleur7 {
-        background-color: #D18B0A;    
+        background-color: var(--yellow-dark);    
     }    
 
     .steunkleur1-1 {
-        background-color: #A7DDDF;
+        background-color: var(--turquoise-light);
     }
 
     .steunkleur1-2 {
-        background-color: #4FBBC2;
+        background-color: var(--turquoise-normal);
     }
 
     .steunkleur1-3 {
-        background-color: #019DA7;
-        color: white;  
+        background-color: var(--turquoise-dark);
+        color: var(--grey-light);  
     }
 
     .steunkleur2-1 {
-        background-color: #FDB4A5;
+        background-color: var(--red-light);
     }
 
     .steunkleur2-2 {
-        background-color: #F86B50;
+        background-color: var(--red-normal);
     }
 
     .steunkleur2-3 {
-        background-color: #D04A27;
-        color: white;  
+        background-color: var(--red-dark);
+        color: var(--grey-light);  
     }
 
     .steunkleur3-1 {
-        background-color: #DAC7DD;
+        background-color: var(--purple-light);
     }
 
     .steunkleur3-2 {
-        background-color: #B48EBA;
+        background-color: var(--purple-normal);
     }
 
     .steunkleur3-3 {
-        background-color: #9864A0;
-        color: white;  
+        background-color: var(--purple-dark);
+        color: var(--grey-light);  
     }
 
     .steunkleur4-1 {
-        background-color: #D7D9A7;
+        background-color: var(--green-light);
     }
 
     .steunkleur4-2 {
-        background-color: #B0B74D;
+        background-color: var(--green-normal);
     }
 
     .steunkleur4-3 {
-        background-color: #8D9600;
-        color: white;  
+        background-color: var(--green-dark);
+        color: var(--grey-light);  
     }
 
     .steunkleur5-1 {
-        background-color: #DD99A6;
+        background-color: var(--winered-light);
     }
 
     .steunkleur5-2 {
-        background-color: #BC364F;
-        color: white;  
+        background-color: var(--winered-normal);
+        color: var(--grey-light);  
     }
 
     .steunkleur5-3 {
-        background-color: #9A0034;
-        color: white;  
+        background-color: var(--winered-dark);
+        color: var(--grey-light);  
     }
 
     .steunkleur6-1 {
-        background-color: #9AB9CD;
+        background-color: var(--blue-light);
     }
 
     .steunkleur6-2 {
-        background-color: #2F739B;
-        color: white;  
+        background-color: var(--blue-normal);
+        color: var(--grey-light);  
     }
 
     .steunkleur6-3 {
-        background-color: #005374;
-        color: white;  
+        background-color: var(--blue-dark);
+        color: var(--grey-light);  
     }
 
     /* Typografie */
