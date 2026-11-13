@@ -60,112 +60,112 @@
 
     /* Kleuren */
     
-    .hoofdkleur1 {
+    .darkblue {
         background-color: var(--darkblue);  
         color: var(--grey-light);  
     }
     
-    .hoofdkleur2 {
+    .lightblue {
         background-color: var(--lightblue);
         color: var(--grey-light); 
     }
     
-    .hoofdkleur3 {
+    .grey-dark {
         background-color: var(--grey-dark);    
     }
 
-    .hoofdkleur4 {
+    .grey-normal {
         background-color: var(--grey-normal);    
     }
 
-    .hoofdkleur5 {
+    .grey-light {
         background-color: var(--grey-light);    
     }
 
-    .hoofdkleur6 {
+    .yellow-light {
         background-color: var(--yellow-light);    
     }
 
-    .hoofdkleur7 {
+    .yellow-dark {
         background-color: var(--yellow-dark);    
     }    
 
-    .steunkleur1-1 {
+    .turquoise-light {
         background-color: var(--turquoise-light);
     }
 
-    .steunkleur1-2 {
+    .turquoise-normal {
         background-color: var(--turquoise-normal);
     }
 
-    .steunkleur1-3 {
+    .turquoise-dark {
         background-color: var(--turquoise-dark);
         color: var(--grey-light);  
     }
 
-    .steunkleur2-1 {
+    .red-light {
         background-color: var(--red-light);
     }
 
-    .steunkleur2-2 {
+    .red-normal {
         background-color: var(--red-normal);
     }
 
-    .steunkleur2-3 {
+    .red-dark {
         background-color: var(--red-dark);
         color: var(--grey-light);  
     }
 
-    .steunkleur3-1 {
+    .purple-light {
         background-color: var(--purple-light);
     }
 
-    .steunkleur3-2 {
+    .purple-normal {
         background-color: var(--purple-normal);
     }
 
-    .steunkleur3-3 {
+    .purple-dark {
         background-color: var(--purple-dark);
         color: var(--grey-light);  
     }
 
-    .steunkleur4-1 {
+    .green-light {
         background-color: var(--green-light);
     }
 
-    .steunkleur4-2 {
+    .green-normal {
         background-color: var(--green-normal);
     }
 
-    .steunkleur4-3 {
+    .green-dark {
         background-color: var(--green-dark);
         color: var(--grey-light);  
     }
 
-    .steunkleur5-1 {
+    .winered-light {
         background-color: var(--winered-light);
     }
 
-    .steunkleur5-2 {
+    .winered-normal {
         background-color: var(--winered-normal);
         color: var(--grey-light);  
     }
 
-    .steunkleur5-3 {
+    .winered-dark {
         background-color: var(--winered-dark);
         color: var(--grey-light);  
     }
 
-    .steunkleur6-1 {
+    .blue-light {
         background-color: var(--blue-light);
     }
 
-    .steunkleur6-2 {
+    .blue-normal {
         background-color: var(--blue-normal);
         color: var(--grey-light);  
     }
 
-    .steunkleur6-3 {
+    .blue-dark {
         background-color: var(--blue-dark);
         color: var(--grey-light);  
     }
