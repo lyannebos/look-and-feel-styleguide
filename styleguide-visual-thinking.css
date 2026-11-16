@@ -8,44 +8,44 @@
         /* Colors */
 
         /* Main colors */
-        --page: #F5F5F5;
-        --darkblue: #1D194E;
-        --lightblue: #47446F;
-        --yellow-light: #FEB51E;
-        --yellow-dark:#D18B0A;
-        --grey-dark: #A3A2B7;
-        --grey-normal: #D1D0DB;
-        --grey-light: #F3F3F6;
+        --light-accent: #F5F5F5;
+        --dark-accent: #1D194E;
+        --lightdark-accent: #47446F;
+        --color-interactive-light: #FEB51E;
+        --color-interactive-dark:#D18B0A;
+        --color-neutral-dark: #A3A2B7;
+        --color-neutral-normal: #D1D0DB;
+        --color-neutral-light: #F3F3F6;
 
         /* Steunkleur 1 - Turquoise: Leren over jezelf en reflecteren */
-        --turquoise-light: #A7DDDF;
-        --turquoise-normal: #4FBBC2;
-        --turquoise-dark: #019DA7;
+        --color-theme-01-light: #A7DDDF;
+        --color-theme-01-neutral: #4FBBC2;
+        --color-theme-01-dark: #019DA7;
 
         /* Steunkleur 2 - Red: Onderzoeken en begrijpen */
-        --red-light: #FDB4A5;
-        --red-normal: #F96C4F;
-        --red-dark: #D04925;
+        --color-theme-02-light: #FDB4A5;
+        --color-theme-02-neutral: #F96C4F;
+        --color-theme-02-dark: #D04925;
 
         /* Steunkleur 3 - Purple: Creatief denken */
-        --purple-light: #DAC7DD;
-        --purple-normal: #B48EBA;
-        --purple-dark: #9864A0;
+        --color-theme-03-light: #DAC7DD;
+        --color-theme-03-neutral: #B48EBA;
+        --color-theme-03-dark: #9864A0;
 
         /* Steunkleur 4 - Green: Organiseren en plannen */
-        --green-light: #D7D9A7;
-        --green-normal: #B0B64C;
-        --green-dark: #8E9700;
+        --color-theme-04-light: #D7D9A7;
+        --color-theme-04-neutral: #B0B64C;
+        --color-theme-04-dark: #8E9700;
 
         /* Steunkleur 5 - Wine Red: Communiceren en presenteren */
-        --winered-light: #DD99A6;
-        --winered-normal: #BD364E;
-        --winered-dark: #970033;
+        --color-theme-05-light: #DD99A6;
+        --color-theme-05-neutral: #BD364E;
+        --color-theme-05-dark: #970033;
 
         /* Steunkleur 6 - Blue: Leren over anderen */
-        --blue-light: #9AB9CD;
-        --blue-normal: #2F739B;
-        --blue-dark: #005374;
+        --color-theme-06-light: #9AB9CD;
+        --color-theme-06-neutral: #2F739B;
+        --color-theme-06-dark: #005374;
 
         /* Typografie */
 
@@ -85,117 +85,117 @@
     /* Kleuren */
     
     .page {
-        background-color: var(--page);    
+        background-color: var(--light-accent);    
     }   
 
     .darkblue {
-        background-color: var(--darkblue);  
-        color: var(--grey-light);  
+        background-color: var(--dark-accent);  
+        color: var(--color-neutral-light);  
     }
     
     .lightblue {
-        background-color: var(--lightblue);
-        color: var(--grey-light); 
+        background-color: var(--lightdark-accent);
+        color: var(--color-neutral-light); 
     }
     
     .grey-dark {
-        background-color: var(--grey-dark);    
+        background-color: var(--color-neutral-dark);    
     }
 
     .grey-normal {
-        background-color: var(--grey-normal);    
+        background-color: var(--color-neutral-normal);    
     }
 
     .grey-light {
-        background-color: var(--grey-light);    
+        background-color: var(--color-neutral-light);    
     }
 
     .yellow-light {
-        background-color: var(--yellow-light);    
+        background-color: var(--color-interactive-light);    
     }
 
     .yellow-dark {
-        background-color: var(--yellow-dark);    
+        background-color: var(--color-interactive-dark);    
     }    
 
     .turquoise-light {
-        background-color: var(--turquoise-light);
+        background-color: var(--color-theme-01-light);
     }
 
     .turquoise-normal {
-        background-color: var(--turquoise-normal);
+        background-color: var(--color-theme-01-neutral);
     }
 
     .turquoise-dark {
-        background-color: var(--turquoise-dark);
-        color: var(--grey-light);  
+        background-color: var(--color-theme-01-dark);
+        color: var(--color-neutral-light);  
     }
 
     .red-light {
-        background-color: var(--red-light);
+        background-color: var(--color-theme-02-light);
     }
 
     .red-normal {
-        background-color: var(--red-normal);
+        background-color: var(--color-theme-02-neutral);
     }
 
     .red-dark {
-        background-color: var(--red-dark);
-        color: var(--grey-light);  
+        background-color: var(--color-theme-02-dark);
+        color: var(--color-neutral-light);  
     }
 
     .purple-light {
-        background-color: var(--purple-light);
+        background-color: var(--color-theme-03-light);
     }
 
     .purple-normal {
-        background-color: var(--purple-normal);
+        background-color: var(--color-theme-03-neutral);
     }
 
     .purple-dark {
-        background-color: var(--purple-dark);
-        color: var(--grey-light);  
+        background-color: var(--color-theme-03-dark);
+        color: var(--color-neutral-light);  
     }
 
     .green-light {
-        background-color: var(--green-light);
+        background-color: var(--color-theme-04-light);
     }
 
     .green-normal {
-        background-color: var(--green-normal);
+        background-color: var(--color-theme-04-neutral);
     }
 
     .green-dark {
-        background-color: var(--green-dark);
-        color: var(--grey-light);  
+        background-color: var(--color-theme-04-dark);
+        color: var(--color-neutral-light);  
     }
 
     .winered-light {
-        background-color: var(--winered-light);
+        background-color: var(--color-theme-05-light);
     }
 
     .winered-normal {
-        background-color: var(--winered-normal);
-        color: var(--grey-light);  
+        background-color: var(--color-theme-05-neutral);
+        color: var(--color-neutral-light);  
     }
 
     .winered-dark {
-        background-color: var(--winered-dark);
-        color: var(--grey-light);  
+        background-color: var(--color-theme-05-dark);
+        color: var(--color-neutral-light);  
     }
 
     .blue-light {
-        background-color: var(--blue-light);
+        background-color: var(--color-theme-06-light);
     }
 
     .blue-normal {
-        background-color: var(--blue-normal);
-        color: var(--grey-light);  
+        background-color: var(--color-theme-06-neutral);
+        color: var(--color-neutral-light);  
     }
 
     .blue-dark {
-        background-color: var(--blue-dark);
-        color: var(--grey-light);  
+        background-color: var(--color-theme-06-dark);
+        color: var(--color-neutral-light);  
     }
 
     /* Typografie */
@@ -246,12 +246,12 @@
 
     /* Formulier elementen */
     .text{
-        border: 1px solid #D1D0DB;
+        border: 1px solid var(--color-neutral-normal);
         padding: 10px 20px 10px 20px;
     }
 
     .text-blue{
-        border: 1px solid #1D194E;
+        border: 1px solid var(--dark-accent);
         padding: 10px 20px 10px 20px;
     }
 
@@ -286,7 +286,7 @@
     }
 
     .searchbar{
-        border: 2px solid #D1D0DB;
+        border: 2px solid var(--color-neutral-normal);
         padding: 10px 20px 10px 20px;
         display: flex;
         align-items: center;
@@ -300,7 +300,7 @@
     }
 
     .searchbar-blue{
-        border: 2px solid #1D194E;
+        border: 2px solid var(--dark-accent);
         padding: 10px 20px 10px 20px;
         display: flex;
         align-items: center;
@@ -313,13 +313,13 @@
         }
 
         .input2::placeholder {
-            color: #1D194E;
+            color: var(--dark-accent);
         }
     }    
 
     .button{
-        background-color: #FEB51E;
-        color: #1D194E;
+        background-color: var(--color-interactive-light);
+        color: var(--dark-accent);
         padding: 20px 33px 20px 33px;
         border: none;
         font-weight: 500;
@@ -327,8 +327,8 @@
     }
 
     .button-reversed {
-        background-color: #1D194E;
-        color: #FEB51E;
+        background-color: var(--dark-accent);
+        color: var(--color-interactive-light);
         padding: 20px 33px 20px 33px;
         border: none;
         font-weight: 500;
@@ -337,8 +337,8 @@
 
 
     .button-checked{
-        background-color: #1D194E;
-        color: #F3F3F6;
+        background-color: var(--dark-accent);
+        color: var(--color-neutral-light);
         padding: 20px 33px 20px 33px;
         border: none;
         font-weight: 500;
@@ -346,19 +346,19 @@
     }
 
     .button-unchecked{
-        background-color: white;
-        color: #1D194E;
+        background-color: var(--color-neutral-light);
+        color: var(--dark-accent);
         padding: 20px 33px 20px 33px;
-        border: 1px solid #1D194E;
+        border: 1px solid var(--dark-accent);
         font-weight: 500;
         font-size: 14px;
     }
    .checkbox {
     display: inline-block;
-    background-color: white;
-    color: #1D194E;
+    background-color: var(--color-neutral-light);
+    color: var(--dark-accent);
     padding: 20px 33px;
-    border: 1px solid #1D194E;
+    border: 1px solid var(--dark-accent);
     font-weight: 500;
     font-size: 14px;
     cursor: pointer;
@@ -369,7 +369,7 @@
 }
 
 .checkbox:has(input:checked) {
-    background-color: #1D194E;
-    color: #F3F3F6;
+    background-color: var(--dark-accent);
+    color: var(--color-neutral-light);
 }
 }
