@@ -200,6 +200,14 @@
 
     /* Typografie */
 
+    * {
+        font-family: "Rigid square";
+    }
+
+    body {
+        font-family: "Yrsa";
+    }
+
 
     .alineakop {
         font-family: "Yrsa";
