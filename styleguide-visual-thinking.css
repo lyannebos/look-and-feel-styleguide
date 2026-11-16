@@ -375,10 +375,10 @@
 
 .radio {
     display: inline-block;
-    background-color: white;
-    color: #1D194E;
+    background-color: var(--color-neutral-light);
+    color: var(--dark-accent);
     padding: 20px 33px;
-    border: 1px solid #1D194E;
+    border: 1px solid var(--dark-accent);
     font-weight: 500;
     font-size: 14px;
     cursor: pointer;
@@ -392,12 +392,12 @@
 }
 
 .radio:has(input:checked) {
-    background-color: #1D194E;
-    color: #F3F3F6;
+    background-color: var(--dark-accent);
+    color: var(--color-neutral-light);
 }
 
 .radio:has(input:focus-visible) {
-    outline: 2px solid #1D194E;
+    outline: 2px solid var(--dark-accent);
     outline-offset: 3px;
 }
 }
