@@ -54,8 +54,8 @@
     }
 
     @font-face {
-        font-family: "Rigid square";
-        src: url(./fonts/Rigid_Square_Bold.otf);
+        font-family: "Quantico";
+        src: url(./fonts/Quantico-Bold.ttf);
         font-weight: 700;
         font-style: normal;
         font-display: fallback;
@@ -234,7 +234,7 @@
     }
 
     .tabelkop {
-        font-family: "Rigid Square";
+        font-family: "Quantico";
         font-size: 17px;
         font-weight: 700;
     }
@@ -245,7 +245,7 @@
     }
 
     .quote {
-        font-family: "Rigid Square";
+        font-family: "Quantico";
         font-size: 17px;
         font-weight: 700;
         text-align: center;
