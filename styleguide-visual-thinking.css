@@ -372,4 +372,32 @@
     background-color: var(--dark-accent);
     color: var(--color-neutral-light);
 }
+
+.radio {
+    display: inline-block;
+    background-color: white;
+    color: #1D194E;
+    padding: 20px 33px;
+    border: 1px solid #1D194E;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.radio input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+}
+
+.radio:has(input:checked) {
+    background-color: #1D194E;
+    color: #F3F3F6;
+}
+
+.radio:has(input:focus-visible) {
+    outline: 2px solid #1D194E;
+    outline-offset: 3px;
+}
 }
