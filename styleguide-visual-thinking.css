@@ -84,116 +84,116 @@
 
     /* Kleuren */
     
-    .page {
+    .light-accent {
         background-color: var(--light-accent);    
     }   
 
-    .darkblue {
+    .dark-accent {
         background-color: var(--dark-accent);  
         color: var(--color-neutral-light);  
     }
     
-    .lightblue {
+    .lightdark-accent {
         background-color: var(--lightdark-accent);
         color: var(--color-neutral-light); 
     }
     
-    .grey-dark {
+    .color-neutral-dark {
         background-color: var(--color-neutral-dark);    
     }
 
-    .grey-normal {
+    .color-neutral-normal {
         background-color: var(--color-neutral-normal);    
     }
 
-    .grey-light {
+    .color-neutral-light {
         background-color: var(--color-neutral-light);    
     }
 
-    .yellow-light {
+    .color-interactive-light {
         background-color: var(--color-interactive-light);    
     }
 
-    .yellow-dark {
+    .color-interactive-dark {
         background-color: var(--color-interactive-dark);    
     }    
 
-    .turquoise-light {
+    .color-theme-01-light {
         background-color: var(--color-theme-01-light);
     }
 
-    .turquoise-normal {
+    .color-theme-01-neutral {
         background-color: var(--color-theme-01-neutral);
     }
 
-    .turquoise-dark {
+    .color-theme-01-dark {
         background-color: var(--color-theme-01-dark);
         color: var(--color-neutral-light);  
     }
 
-    .red-light {
+    .color-theme-02-light {
         background-color: var(--color-theme-02-light);
     }
 
-    .red-normal {
+    .color-theme-02-neutral {
         background-color: var(--color-theme-02-neutral);
     }
 
-    .red-dark {
+    .color-theme-02-dark {
         background-color: var(--color-theme-02-dark);
         color: var(--color-neutral-light);  
     }
 
-    .purple-light {
+    .color-theme-03-light {
         background-color: var(--color-theme-03-light);
     }
 
-    .purple-normal {
+    .color-theme-03-neutral {
         background-color: var(--color-theme-03-neutral);
     }
 
-    .purple-dark {
+    .color-theme-03-dark {
         background-color: var(--color-theme-03-dark);
         color: var(--color-neutral-light);  
     }
 
-    .green-light {
+    .color-theme-04-light {
         background-color: var(--color-theme-04-light);
     }
 
-    .green-normal {
+    .color-theme-04-neutral {
         background-color: var(--color-theme-04-neutral);
     }
 
-    .green-dark {
+    .color-theme-04-dark {
         background-color: var(--color-theme-04-dark);
         color: var(--color-neutral-light);  
     }
 
-    .winered-light {
+    .color-theme-05-light {
         background-color: var(--color-theme-05-light);
     }
 
-    .winered-normal {
+    .color-theme-05-neutral {
         background-color: var(--color-theme-05-neutral);
         color: var(--color-neutral-light);  
     }
 
-    .winered-dark {
+    .color-theme-05-dark {
         background-color: var(--color-theme-05-dark);
         color: var(--color-neutral-light);  
     }
 
-    .blue-light {
+    .color-theme-06-light {
         background-color: var(--color-theme-06-light);
     }
 
-    .blue-normal {
+    .color-theme-06-neutral {
         background-color: var(--color-theme-06-neutral);
         color: var(--color-neutral-light);  
     }
 
-    .blue-dark {
+    .color-theme-06-dark {
         background-color: var(--color-theme-06-dark);
         color: var(--color-neutral-light);  
     }
