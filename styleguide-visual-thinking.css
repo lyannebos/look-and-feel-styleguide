@@ -3,79 +3,79 @@
    https://css-tricks.com/css-cascade-layers/ */
 
 
-    :root {
+:root {
 
-        /* Colors */
+    /* Colors */
 
-        /* Main colors */
-        --light-accent: #F5F5F5;
-        --dark-accent: #1D194E;
-        --lightdark-accent: #47446F;
-        --color-interactive-light: #FEB51E;
-        --color-interactive-dark:#D18B0A;
-        --color-neutral-dark: #A3A2B7;
-        --color-neutral-normal: #D1D0DB;
-        --color-neutral-light: #F3F3F6;
+    /* Main colors */
+    --light-accent: #F5F5F5;
+    --dark-accent: #1D194E;
+    --lightdark-accent: #47446F;
+    --color-interactive-light: #FEB51E;
+    --color-interactive-dark: #D18B0A;
+    --color-neutral-dark: #A3A2B7;
+    --color-neutral-normal: #D1D0DB;
+    --color-neutral-light: #F3F3F6;
 
-        /* Steunkleur 1 - Turquoise: Leren over jezelf en reflecteren */
-        --color-theme-01-light: #A7DDDF;
-        --color-theme-01-neutral: #4FBBC2;
-        --color-theme-01-dark: #019DA7;
+    /* Steunkleur 1 - Turquoise: Leren over jezelf en reflecteren */
+    --color-theme-01-light: #A7DDDF;
+    --color-theme-01-neutral: #4FBBC2;
+    --color-theme-01-dark: #019DA7;
 
-        /* Steunkleur 2 - Red: Onderzoeken en begrijpen */
-        --color-theme-02-light: #FDB4A5;
-        --color-theme-02-neutral: #F96C4F;
-        --color-theme-02-dark: #D04925;
+    /* Steunkleur 2 - Red: Onderzoeken en begrijpen */
+    --color-theme-02-light: #FDB4A5;
+    --color-theme-02-neutral: #F96C4F;
+    --color-theme-02-dark: #D04925;
 
-        /* Steunkleur 3 - Purple: Creatief denken */
-        --color-theme-03-light: #DAC7DD;
-        --color-theme-03-neutral: #B48EBA;
-        --color-theme-03-dark: #9864A0;
+    /* Steunkleur 3 - Purple: Creatief denken */
+    --color-theme-03-light: #DAC7DD;
+    --color-theme-03-neutral: #B48EBA;
+    --color-theme-03-dark: #9864A0;
 
-        /* Steunkleur 4 - Green: Organiseren en plannen */
-        --color-theme-04-light: #D7D9A7;
-        --color-theme-04-neutral: #B0B64C;
-        --color-theme-04-dark: #8E9700;
+    /* Steunkleur 4 - Green: Organiseren en plannen */
+    --color-theme-04-light: #D7D9A7;
+    --color-theme-04-neutral: #B0B64C;
+    --color-theme-04-dark: #8E9700;
 
-        /* Steunkleur 5 - Wine Red: Communiceren en presenteren */
-        --color-theme-05-light: #DD99A6;
-        --color-theme-05-neutral: #BD364E;
-        --color-theme-05-dark: #970033;
+    /* Steunkleur 5 - Wine Red: Communiceren en presenteren */
+    --color-theme-05-light: #DD99A6;
+    --color-theme-05-neutral: #BD364E;
+    --color-theme-05-dark: #970033;
 
-        /* Steunkleur 6 - Blue: Leren over anderen */
-        --color-theme-06-light: #9AB9CD;
-        --color-theme-06-neutral: #2F739B;
-        --color-theme-06-dark: #005374;
+    /* Steunkleur 6 - Blue: Leren over anderen */
+    --color-theme-06-light: #9AB9CD;
+    --color-theme-06-neutral: #2F739B;
+    --color-theme-06-dark: #005374;
 
-        /* Typografie */
+    /* Typografie */
 
-        /* Komt nog */
+    /* Komt nog */
 
-    }
+}
 
-    @font-face {
-        font-family: "Quantico";
-        src: url(./fonts/Quantico-Bold.ttf);
-        font-weight: 700;
-        font-style: normal;
-        font-display: fallback;
-    }
+@font-face {
+    font-family: "Quantico";
+    src: url(./fonts/Quantico-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+    font-display: fallback;
+}
 
-    @font-face {
-        font-family: "Yrsa";
-        src: url(./fonts/Yrsa-Regular\ kopie.ttf);
-        font-weight: 100;
-        font-style: normal;
-        font-display: fallback;
-    }    
+@font-face {
+    font-family: "Yrsa";
+    src: url(./fonts/Yrsa-Regular\ kopie.ttf);
+    font-weight: 100;
+    font-style: normal;
+    font-display: fallback;
+}
 
-    @font-face {
-        font-family: "Yrsa";
-        src: url(./fonts/Yrsa-Bold.ttf);
-        font-weight:700;
-        font-style: normal;
-        font-display: fallback;
-    }
+@font-face {
+    font-family: "Yrsa";
+    src: url(./fonts/Yrsa-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+    font-display: fallback;
+}
 
 @layer styleguide {
 
@@ -83,40 +83,40 @@
        gedeeld gaan worden door jullie projecten */
 
     /* Kleuren */
-    
+
     .light-accent {
-        background-color: var(--light-accent);    
-    }   
+        background-color: var(--light-accent);
+    }
 
     .dark-accent {
-        background-color: var(--dark-accent);  
-        color: var(--color-neutral-light);  
+        background-color: var(--dark-accent);
+        color: var(--color-neutral-light);
     }
-    
+
     .lightdark-accent {
         background-color: var(--lightdark-accent);
-        color: var(--color-neutral-light); 
+        color: var(--color-neutral-light);
     }
-    
+
     .color-neutral-dark {
-        background-color: var(--color-neutral-dark);    
+        background-color: var(--color-neutral-dark);
     }
 
     .color-neutral-normal {
-        background-color: var(--color-neutral-normal);    
+        background-color: var(--color-neutral-normal);
     }
 
     .color-neutral-light {
-        background-color: var(--color-neutral-light);    
+        background-color: var(--color-neutral-light);
     }
 
     .color-interactive-light {
-        background-color: var(--color-interactive-light);    
+        background-color: var(--color-interactive-light);
     }
 
     .color-interactive-dark {
-        background-color: var(--color-interactive-dark);    
-    }    
+        background-color: var(--color-interactive-dark);
+    }
 
     .color-theme-01-light {
         background-color: var(--color-theme-01-light);
@@ -128,7 +128,7 @@
 
     .color-theme-01-dark {
         background-color: var(--color-theme-01-dark);
-        color: var(--color-neutral-light);  
+        color: var(--color-neutral-light);
     }
 
     .color-theme-02-light {
@@ -141,7 +141,7 @@
 
     .color-theme-02-dark {
         background-color: var(--color-theme-02-dark);
-        color: var(--color-neutral-light);  
+        color: var(--color-neutral-light);
     }
 
     .color-theme-03-light {
@@ -154,7 +154,7 @@
 
     .color-theme-03-dark {
         background-color: var(--color-theme-03-dark);
-        color: var(--color-neutral-light);  
+        color: var(--color-neutral-light);
     }
 
     .color-theme-04-light {
@@ -167,7 +167,7 @@
 
     .color-theme-04-dark {
         background-color: var(--color-theme-04-dark);
-        color: var(--color-neutral-light);  
+        color: var(--color-neutral-light);
     }
 
     .color-theme-05-light {
@@ -176,12 +176,12 @@
 
     .color-theme-05-neutral {
         background-color: var(--color-theme-05-neutral);
-        color: var(--color-neutral-light);  
+        color: var(--color-neutral-light);
     }
 
     .color-theme-05-dark {
         background-color: var(--color-theme-05-dark);
-        color: var(--color-neutral-light);  
+        color: var(--color-neutral-light);
     }
 
     .color-theme-06-light {
@@ -190,12 +190,12 @@
 
     .color-theme-06-neutral {
         background-color: var(--color-theme-06-neutral);
-        color: var(--color-neutral-light);  
+        color: var(--color-neutral-light);
     }
 
     .color-theme-06-dark {
         background-color: var(--color-theme-06-dark);
-        color: var(--color-neutral-light);  
+        color: var(--color-neutral-light);
     }
 
     /* Typografie */
@@ -251,22 +251,18 @@
         font-weight: 700;
         text-align: center;
         margin: 5ch;
-
-        background-size: 7ch;
         background-color: var(--color-theme-02-dark);
         color: var(--color-neutral-light);
-
-
 
     }
 
     /* Formulier elementen */
-    .text{
+    .text {
         border: 1px solid var(--color-neutral-normal);
         padding: 10px 20px 10px 20px;
     }
 
-    .text-blue{
+    .text-blue {
         border: 1px solid var(--dark-accent);
         padding: 10px 20px 10px 20px;
     }
@@ -283,16 +279,16 @@
     }
 
     .alinea-article {
-       font-family: "Yrsa";
-       font-size: 17px;
-       line-height: 1.7;
+        font-family: "Yrsa";
+        font-size: 17px;
+        line-height: 1.7;
     }
 
-    input:focus{
+    input:focus {
         outline: none;
     }
-  
-    input{
+
+    input {
         caret-color: black;
         font-size: 16px;
     }
@@ -301,28 +297,28 @@
         font-family: "Rigid square";
     }
 
-    .searchbar{
+    .searchbar {
         border: 2px solid var(--color-neutral-normal);
         padding: 10px 20px 10px 20px;
         display: flex;
         align-items: center;
         gap: 20px;
 
-        .input{
+        .input {
             border: none;
             font-size: 16px;
             width: 100%;
         }
     }
 
-    .searchbar-blue{
+    .searchbar-blue {
         border: 2px solid var(--dark-accent);
         padding: 10px 20px 10px 20px;
         display: flex;
         align-items: center;
         gap: 20px;
 
-        .input2{
+        .input2 {
             border: none;
             font-size: 16px;
             width: 100%;
@@ -331,9 +327,9 @@
         .input2::placeholder {
             color: var(--dark-accent);
         }
-    }    
+    }
 
-    .button{
+    .button {
         background-color: var(--color-interactive-light);
         color: var(--dark-accent);
         padding: 20px 33px 20px 33px;
@@ -352,7 +348,7 @@
     }
 
 
-    .button-checked{
+    .button-checked {
         background-color: var(--dark-accent);
         color: var(--color-neutral-light);
         padding: 20px 33px 20px 33px;
@@ -361,7 +357,7 @@
         font-size: 14px;
     }
 
-    .button-unchecked{
+    .button-unchecked {
         background-color: var(--color-neutral-light);
         color: var(--dark-accent);
         padding: 20px 33px 20px 33px;
@@ -369,51 +365,52 @@
         font-weight: 500;
         font-size: 14px;
     }
-   .checkbox {
-    display: inline-block;
-    background-color: var(--color-neutral-light);
-    color: var(--dark-accent);
-    padding: 20px 33px;
-    border: 1px solid var(--dark-accent);
-    font-weight: 500;
-    font-size: 14px;
-    cursor: pointer;
-}
 
-.checkbox input[type="checkbox"] {
-    display: none;
-}
+    .checkbox {
+        display: inline-block;
+        background-color: var(--color-neutral-light);
+        color: var(--dark-accent);
+        padding: 20px 33px;
+        border: 1px solid var(--dark-accent);
+        font-weight: 500;
+        font-size: 14px;
+        cursor: pointer;
+    }
 
-.checkbox:has(input:checked) {
-    background-color: var(--dark-accent);
-    color: var(--color-neutral-light);
-}
+    .checkbox input[type="checkbox"] {
+        display: none;
+    }
 
-.radio {
-    display: inline-block;
-    background-color: var(--color-neutral-light);
-    color: var(--dark-accent);
-    padding: 20px 33px;
-    border: 1px solid var(--dark-accent);
-    font-weight: 500;
-    font-size: 14px;
-    cursor: pointer;
-}
+    .checkbox:has(input:checked) {
+        background-color: var(--dark-accent);
+        color: var(--color-neutral-light);
+    }
 
-.radio input[type="radio"] {
-    position: absolute;
-    opacity: 0;
-    width: 1px;
-    height: 1px;
-}
+    .radio {
+        display: inline-block;
+        background-color: var(--color-neutral-light);
+        color: var(--dark-accent);
+        padding: 20px 33px;
+        border: 1px solid var(--dark-accent);
+        font-weight: 500;
+        font-size: 14px;
+        cursor: pointer;
+    }
 
-.radio:has(input:checked) {
-    background-color: var(--dark-accent);
-    color: var(--color-neutral-light);
-}
+    .radio input[type="radio"] {
+        position: absolute;
+        opacity: 0;
+        width: 1px;
+        height: 1px;
+    }
 
-.radio:has(input:focus-visible) {
-    outline: 2px solid var(--dark-accent);
-    outline-offset: 3px;
-}
+    .radio:has(input:checked) {
+        background-color: var(--dark-accent);
+        color: var(--color-neutral-light);
+    }
+
+    .radio:has(input:focus-visible) {
+        outline: 2px solid var(--dark-accent);
+        outline-offset: 3px;
+    }
 }
