@@ -250,6 +250,13 @@
         font-size: 17px;
         font-weight: 700;
         text-align: center;
+        margin: 5ch;
+
+        background-size: 7ch;
+        background-color: var(--color-theme-02-dark);
+        color: var(--color-neutral-light);
+
+
 
     }
 
