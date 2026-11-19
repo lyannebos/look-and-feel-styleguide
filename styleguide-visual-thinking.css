@@ -51,6 +51,14 @@
 
 @font-face {
     font-family: "Quantico";
+    src: url(./fonts/Quantico-Regular.ttf);
+    font-weight: 100;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "Quantico";
     src: url(./fonts/Quantico-Bold.ttf);
     font-weight: 700;
     font-style: normal;
